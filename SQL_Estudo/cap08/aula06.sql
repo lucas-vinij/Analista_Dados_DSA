@@ -1,0 +1,19 @@
+ SELECT PdId, Category, COUNT(*) AS numero
+ FROM cap08.TB_INCIDENTES_DUP
+ GROUP BY PdId, Category
+ HAVING numero > 1;
+ 
+SET SQL_SAFE_UPDATES = 0;
+ 
+ DELETE FROM cap08.TB_INCIDENTES_DUP
+ WHERE 
+	PdId IN (
+    SELECT PdId
+    FROM (
+		SELECT
+			PdId, ROW_NUMBER () OVER (PARTITION BY PdId, Category ORDER BY PdId) AS row_num
+		FROM cap08.TB_INCIDENTES_DUP) alias
+	WHERE row_num > 1
+);
+
+SET SQL_SAFE_UPDATES = 1;

@@ -1,0 +1,14 @@
+SELECT nome,sobrenome, COUNT(*)
+FROM cap08.TB_ALUNOS
+GROUP BY nome,sobrenome
+HAVING COUNT(*) > 1;
+
+SET SQL_SAFE_UPDATES = 0;
+
+USE cap08;
+DELETE n1
+FROM TB_ALUNOS n1, TB_ALUNOS n2
+WHERE n1.id > n2.id 
+AND n1.email = n2.email;
+
+SET SQL_SAFE_UPDATES = 1;
