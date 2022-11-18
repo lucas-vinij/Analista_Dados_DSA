@@ -1,0 +1,57 @@
+Poluição do Ar, medidas em todo mundo.
+(Qualidade do ar no mundo)
+
+5 Etapas: 1. Objetivo, 2.Coleta, 3.Ferramentas,
+4. Tecnicas, 5. Entrega
+
+1. Definição do Objetivo
+	O que queremos analisar?
+Queremos, baseando nos dados saber como está poluicao do ar.
+Se a saude das pessoas pioraram por conta disse
+
+
+	Quais perguntas de negocio devem ser repondidas?
+1.Qual poluente mais perigoso? (Qual mata mais?)
+2.Qual poluente menos perigoso?
+3.Qual País tem o ar menos poluido? Quantas mortes?
+4.Qual País tem o ar mais poluido?  Quantas mortes?
+5.Qual País ou Localidade trabalha mais contra o poluicao do ar?
+
+
+	Quais problemas estamos tentando resolver?
+Estamos querendo descobrir, quais são os piores paises em relacao a poluicao 
+de ar e quais são os melhores 
+	
+	Como os dados vão ser entregues? 
+Dados depois de analisados em SQL serão entregues em forma de Relatorio, mais 
+especificamente no formato  .doc
+	
+2. Coleta e Extração
+	Coletamos os dados de OpenAQ uma organização sem fins lucrativos onde
+o principal objetivo é trazer os dados sobre a poluição do ar para todas as pessoas
+e tornar esses dados, pesquisas, relatorios etc.. Para qualquer pessoa ou organização
+interessada
+
+3. Escolha de ferramentas
+	Quais serão as ferramentas de trabalho?
+		Por se uma analise basica, iremos utilizar somente o SQL.
+
+4. Aplicação das Técnicas de Análise
+	 
+
+5. Entrega dos Resultados 
+DEPOIS DE CONVERTER OS VALORES MANUALMENTE (NÃO CONSEGUIR AUTOMATIZAR :V) 
+link para converter: https://www.breeze-technologies.de/blog/air-pollution-how-to-convert-between-mgm3-%C2%B5gm3-ppm-ppb/
+
+1. pm10
+
+2.
+	
+Analisando a 1 pergunta, descobrimos que o PM2,5 é o poluente mais
+mortifero, matando cerca de 4,2 milhões de mortes prematuras todos os anos em todo mundo
+Isso inclui mais de um milhão de mortes na China, mais de meio milhão na India,
+quase 200.000 na Europa e mais 50.000 nos EUA.
+
+fonte: https://www.mcgill.ca/newsroom/channels/news/air-pollution-silent-killer-called-pm25-329428
+
+Na segunda pergunta o poluente bc ficou abaixo de todos 

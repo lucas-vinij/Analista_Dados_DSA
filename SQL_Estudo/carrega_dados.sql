@@ -17,7 +17,7 @@ CREATE TABLE `exec4`.`channels` (
 
 # Carrega os dados
 LOAD DATA LOCAL INFILE '/home/lucas/Downloads/archive/channels.csv' INTO TABLE `exec4`.`channels` CHARACTER SET UTF8
-FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
+FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 # Cria a tabela
 CREATE TABLE `exec4`.`hubs` (
@@ -30,7 +30,7 @@ CREATE TABLE `exec4`.`hubs` (
 
 # Carrega os dados
 LOAD DATA LOCAL INFILE '/home/lucas/Downloads/archive/hubs.csv' INTO TABLE `exec4`.`hubs` CHARACTER SET UTF8
-FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
+FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 # Cria a tabela
 CREATE TABLE `exec4`.`stores` (
@@ -44,7 +44,7 @@ CREATE TABLE `exec4`.`stores` (
 
   # Carrega os dados
 LOAD DATA LOCAL INFILE '/home/lucas/Downloads/archive/stores.csv' INTO TABLE `exec4`.`stores` CHARACTER SET UTF8
-FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
+FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 # Cria tabela
 CREATE TABLE `exec4`.`drivers` (
@@ -54,7 +54,7 @@ CREATE TABLE `exec4`.`drivers` (
 
   # Carrega os dados
 LOAD DATA LOCAL INFILE '/home/lucas/Downloads/archive/drivers.csv' INTO TABLE `exec4`.`drivers` CHARACTER SET UTF8
-FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
+FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 # Cria tabela
 CREATE TABLE `exec4`.`deliveries` (
@@ -66,7 +66,7 @@ CREATE TABLE `exec4`.`deliveries` (
 
   # Carrega os dados
 LOAD DATA LOCAL INFILE '/home/lucas/Downloads/archive/deliveries.csv' INTO TABLE `exec4`.`deliveries` CHARACTER SET UTF8
-FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
+FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 # Cria tabela
 CREATE TABLE `exec4`.`payments` (
@@ -79,7 +79,7 @@ CREATE TABLE `exec4`.`payments` (
 
   # Carrega os dados
 LOAD DATA LOCAL INFILE '/home/lucas/Downloads/archive/payments.csv' INTO TABLE `exec4`.`payments` CHARACTER SET UTF8
-FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
+FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 # Cria a tabela
 CREATE TABLE `exec4`.`orders` (
@@ -115,7 +115,7 @@ CREATE TABLE `exec4`.`orders` (
 
 # Carrega os dados
 LOAD DATA LOCAL INFILE '/home/lucas/Downloads/archive/orders.csv' INTO TABLE `exec4`.`orders` CHARACTER SET UTF8
-FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
+FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 
 
